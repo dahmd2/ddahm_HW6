@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #0b3d91;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: #1a4b9f;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/* Active Link Styling */
+nav ul li a.active {
+  background-color: #f08080;
+}
+
+/* Image Styling (Box Model Requirement) */
+.profile-photo,
+.schedule-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 2px solid #ccc;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #ddd;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  background-color: #0b3d91;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
